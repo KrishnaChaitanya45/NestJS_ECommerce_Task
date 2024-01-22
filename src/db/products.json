@@ -1,0 +1,144 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Nike Shoes",
+      "description": "High-quality athletic shoes for running and training",
+      "price": 99.99,
+      "category": "Footwear"
+    },
+    {
+      "id": 2,
+      "name": "Apple iPhone 12",
+      "description": "The latest smartphone from Apple with advanced features",
+      "price": 1099.99,
+      "category": "Electronics"
+    },
+    {
+      "id": 3,
+      "name": "Samsung 4K Smart TV",
+      "description": "Ultra HD television with smart features for streaming",
+      "price": 799.99,
+      "category": "Electronics"
+    },
+    {
+      "id": 4,
+      "name": "Canon EOS Rebel T7i",
+      "description": "Digital SLR camera with high-resolution image sensor",
+      "price": 899.99,
+      "category": "Electronics"
+    },
+    {
+      "id": 5,
+      "name": "Sony PlayStation 5",
+      "description": "Next-generation gaming console with immersive gaming experience",
+      "price": 499.99,
+      "category": "Gaming"
+    },
+    {
+      "id": 6,
+      "name": "Adidas T-Shirt",
+      "description": "Comfortable and stylish t-shirt for casual wear",
+      "price": 29.99,
+      "category": "Apparel"
+    },
+    {
+      "id": 7,
+      "name": "Amazon Echo Dot",
+      "description": "Smart speaker with Alexa voice assistant for hands-free control",
+      "price": 49.99,
+      "category": "Electronics"
+    },
+    {
+      "id": 8,
+      "name": "Fitbit Versa 3",
+      "description": "Smartwatch with fitness tracking and heart rate monitoring",
+      "price": 199.99,
+      "category": "Wearable"
+    },
+    {
+      "id": 9,
+      "name": "Dell XPS 13",
+      "description": "Ultra-thin and lightweight laptop with powerful performance",
+      "price": 1299.99,
+      "category": "Electronics"
+    },
+    {
+      "id": 10,
+      "name": "Nike Air Max",
+      "description": "Classic sneakers with cushioned sole for maximum comfort",
+      "price": 129.99,
+      "category": "Footwear"
+    },
+    {
+      "id": 11,
+      "name": "Samsung Galaxy Watch",
+      "description": "Smartwatch with fitness tracking and built-in GPS",
+      "price": 299.99,
+      "category": "Wearable"
+    },
+    {
+      "id": 12,
+      "name": "Sony WH-1000XM4",
+      "description": "Wireless noise-canceling headphones with exceptional sound quality",
+      "price": 349.99,
+      "category": "Electronics"
+    },
+    {
+      "id": 13,
+      "name": "Apple MacBook Pro",
+      "description": "Powerful laptop with stunning Retina display and long battery life",
+      "price": 1799.99,
+      "category": "Electronics"
+    },
+    {
+      "id": 14,
+      "name": "Nintendo Switch",
+      "description": "Hybrid gaming console for playing at home or on the go",
+      "price": 299.99,
+      "category": "Gaming"
+    },
+    {
+      "id": 15,
+      "name": "Levi's Jeans",
+      "description": "Classic denim jeans with a comfortable fit",
+      "price": 59.99,
+      "category": "Apparel"
+    },
+    {
+      "id": 16,
+      "name": "Bose QuietComfort 35 II",
+      "description": "Wireless noise-canceling headphones for immersive audio experience",
+      "price": 299.99,
+      "category": "Electronics"
+    },
+    {
+      "id": 17,
+      "name": "Apple iPad Pro",
+      "description": "Powerful tablet with stunning Retina display and Apple Pencil support",
+      "price": 999.99,
+      "category": "Electronics"
+    },
+    {
+      "id": 18,
+      "name": "Sony Alpha a7 III",
+      "description": "Mirrorless camera with full-frame image sensor and 4K video recording",
+      "price": 1999.99,
+      "category": "Electronics"
+    },
+    {
+      "id": 19,
+      "name": "Nike Dri-FIT Shorts",
+      "description": "Moisture-wicking shorts for comfortable workout sessions",
+      "price": 39.99,
+      "category": "Apparel"
+    },
+    {
+      "id": 20,
+      "name": "Microsoft Xbox Series X",
+      "description": "Next-generation gaming console with high-performance gaming capabilities",
+      "price": 499.99,
+      "category": "Gaming"
+    }
+  ]
+}

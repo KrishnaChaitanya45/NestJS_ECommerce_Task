@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "name": "Khaleed Kashmiri",
+      "email": "khaleedkashmiri@random.com",
+      "password": "khaleedkashmiri",
+      "id": 1,
+      "cart": [
+        {
+          "id": 1,
+          "name": "Nike Shoes",
+          "description": "High-quality athletic shoes for running and training",
+          "price": 99.99,
+          "category": "Footwear",
+          "quantity": 4
+        }
+      ],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJraGFsZWVka2FzaG1pcmlAcmFuZG9tLmNvbSIsImlhdCI6MTcwNTk0NzM3MH0.kINRrlrttMH234DODDoa2gl0KkmYUTgIDxUXpo7OAjw"
+    }
+  ]
+}
