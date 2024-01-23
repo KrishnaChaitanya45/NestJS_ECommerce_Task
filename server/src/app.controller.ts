@@ -40,6 +40,12 @@ export class AppController {
     return this.authService.registerUser(user);
   }
 
+  @Get('/users')
+  @UseGuards(AuthGuard)
+  getUsers() {
+    return this.authService.getUsers();
+  }
+
   @Post('/login')
   loginUser(@Body() user: Login_User) {
     return this.authService.loginUser(user);

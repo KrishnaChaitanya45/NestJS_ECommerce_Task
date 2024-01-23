@@ -43,6 +43,9 @@ const Navbar = ({ searchRef, handleSearch }: NavProps) => {
         <button className={styles.orders}>
           <Link to="/orders">Orders 🚚</Link>
         </button>
+        <button className={styles.logout}>
+          <Link to="/users">Users 👤</Link>
+        </button>
       </div>
     </nav>
   );

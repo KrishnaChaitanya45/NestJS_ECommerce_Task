@@ -12,7 +12,7 @@ const SignIn = () => {
   const { pushState } = useContext(RouterContext);
   const { setUser } = useContext(AuthContext);
   const errorRef = React.useRef<HTMLDivElement>(null);
-  function signUpHandler(
+  function signInHandler(
     e: React.FormEvent<HTMLFormElement>,
     values: { [key: string]: string }
   ) {
@@ -27,7 +27,7 @@ const SignIn = () => {
         <CustomForm
           initialValues={SIGN_IN_VALUES}
           isLogin={true}
-          submitHandler={signUpHandler}
+          submitHandler={signInHandler}
         />
       </main>
     </section>

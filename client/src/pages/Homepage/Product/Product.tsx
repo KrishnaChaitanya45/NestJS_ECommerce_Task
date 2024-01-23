@@ -53,7 +53,7 @@ const Product = ({
           <p>{count}</p>
           <button
             onClick={() => {
-              if (count > 0) setCount((prev) => prev - 1);
+              if (count > 1) setCount((prev) => prev - 1);
             }}
           >
             {" "}
