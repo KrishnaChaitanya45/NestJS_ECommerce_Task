@@ -1,0 +1,92 @@
+.nav {
+  width: 95%;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  .logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: rgba(193, 183, 183, 0.578);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .search {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    input {
+      width: 90%;
+      height: 2rem;
+      border-radius: 0.5rem;
+      padding: 0rem 0.5rem;
+      font-size: 1rem;
+      font-weight: 600;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  }
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    .logout {
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 0.5rem;
+      padding: 0.5rem 1rem;
+      border: none;
+      outline: none;
+      background-color: rgba(232, 17, 17, 0.578);
+      font-family: Arial, Helvetica, sans-serif;
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+    .orders {
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 0.5rem;
+      padding: 0.5rem 1rem;
+      border: none;
+      outline: none;
+      background-color: rgb(135, 216, 13);
+      font-family: Arial, Helvetica, sans-serif;
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+    .cart {
+      font-size: 1rem;
+      font-weight: 600;
+      position: relative;
+      border-radius: 0.5rem;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      border: none;
+      outline: none;
+      background-color: skyblue;
+      font-family: Arial, Helvetica, sans-serif;
+      p {
+        position: absolute;
+        top: -25%;
+        right: -25%;
+        background-color: yellowgreen;
+        border-radius: 50%;
+        padding: 5px 10px;
+        color: #fff;
+      }
+    }
+  }
+}

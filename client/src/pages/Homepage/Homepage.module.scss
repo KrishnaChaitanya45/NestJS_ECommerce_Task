@@ -1,0 +1,18 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5vh;
+  height: 100vh;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.productsContainer {
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5vw;
+  padding: 1rem 0rem;
+  place-items: center;
+}

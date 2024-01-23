@@ -1,0 +1,58 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5vh;
+  gap: 1rem;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  .heading {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .costDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.25rem;
+    p {
+      font-size: 1.5rem;
+      font-weight: 600;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  }
+  button {
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease-in-out;
+    background-color: rgb(230, 185, 146);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+
+.container {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh;
+  gap: 5vw;
+  width: 100%;
+  article {
+    max-width: 400px;
+  }
+}
