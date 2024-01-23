@@ -65,7 +65,7 @@ const Product = ({
           className={
             productExistsInCart ? styles.addedToCart : styles.addToCart
           }
-          disabled={Boolean(productExistsInCart)}
+          disabled={!isCart && Boolean(productExistsInCart)}
           onClick={() => {
             AddToCartHandler && AddToCartHandler(id, count);
           }}

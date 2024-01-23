@@ -173,7 +173,8 @@ export class ProductService {
       if (!user) throw new Error('User not found');
 
       const products = user.cart;
-      if (!products) throw new Error('No products in cart');
+      if (!products || products.length == 0)
+        throw new Error('No products in cart');
       const totalPrice = products.reduce(
         (total: number, p: CartProducts) => total + p.price * p.quantity,
         0,

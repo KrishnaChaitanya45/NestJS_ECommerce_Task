@@ -26,10 +26,9 @@ const Homepage = () => {
       }`
     );
     const data = await response.json();
-    setProducts(data.products);
     setFilteredProducts(data.products);
+    if (!category) setProducts(data.products);
   };
-  const { pushState } = useContext(RouterContext);
   useEffect(() => {
     fetchProducts();
   }, []);

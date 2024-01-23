@@ -1,6 +1,7 @@
 import {
   Body,
   Controller,
+  Delete,
   Get,
   Post,
   Query,
@@ -71,7 +72,7 @@ export class AppController {
     return this.productService.AddProductToCart(cartInput, req['user'].id);
   }
 
-  @Post('/products/remove-from-cart')
+  @Delete('/products/remove-from-cart')
   @UseGuards(AuthGuard)
   RemoveProductFromCart(
     @Body() body: { product_id: number },
