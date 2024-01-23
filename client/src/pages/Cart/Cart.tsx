@@ -94,6 +94,7 @@ const Cart = () => {
       const data = await response.json();
       if (data.success) {
         setCart([]);
+        user && setUser({ ...user, cart: [] });
         setTimeout(() => {
           pushState("/orders");
         }, 3000);
